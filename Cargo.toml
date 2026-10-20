@@ -21,7 +21,7 @@ keywords = ["geography", "gis", "gui"]
 categories = ["gui", "science::geo"]
 
 [workspace.dependencies]
-walkers = { path = "walkers", version = "0.63.0" }
+walkers = { path = "walkers", version = "0.63.1", package = "re_walkers" }
 walkers_extras = { path = "walkers_extras", version = "0.63.0" }
 
 android_logger = "0.15.1"

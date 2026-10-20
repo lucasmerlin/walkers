@@ -1,13 +1,16 @@
 [package]
-name = "walkers"
-version.workspace = true
+name = "re_walkers"
+version = "0.63.1"
 edition.workspace = true
 rust-version.workspace = true
-description = "slippy map widget for egui"
-repository.workspace = true
+description = "Temporary fork of walkers, a slippy map widget for egui. Use the walkers crate instead."
+repository = "https://github.com/rerun-io/walkers"
 license.workspace = true
 keywords.workspace = true
 categories.workspace = true
+
+[lib]
+name = "walkers"
 
 [dependencies]
 bytemuck = { workspace = true, optional = true }

@@ -1,3 +1,6 @@
+> [!IMPORTANT]
+> Temporary fork of [walkers](https://github.com/podusowski/walkers), to unblock rerun releases. Do not rely on this.
+
 # Walkers, a map widget for Rust
 
 ![made in Europe](https://img.shields.io/badge/made_in-Europe-blue)

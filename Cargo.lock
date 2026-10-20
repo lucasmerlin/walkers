@@ -1159,7 +1159,7 @@ dependencies = [
  "env_logger",
  "getrandom 0.4.3",
  "rand 0.10.3",
- "walkers",
+ "re_walkers",
  "walkers_extras",
 ]
 
@@ -1172,7 +1172,7 @@ dependencies = [
  "eframe",
  "egui-winit",
  "log",
- "walkers",
+ "re_walkers",
 ]
 
 [[package]]
@@ -1183,7 +1183,7 @@ dependencies = [
  "eframe",
  "egui",
  "env_logger",
- "walkers",
+ "re_walkers",
 ]
 
 [[package]]
@@ -1194,7 +1194,7 @@ dependencies = [
  "eframe",
  "egui",
  "log",
- "walkers",
+ "re_walkers",
  "wasm-bindgen-futures",
  "web-sys",
 ]
@@ -4271,6 +4271,44 @@ dependencies = [
 ]
 
 [[package]]
+name = "re_walkers"
+version = "0.63.1"
+dependencies = [
+ "approx",
+ "bytemuck",
+ "bytes",
+ "color",
+ "criterion",
+ "ecolor",
+ "eframe",
+ "egui",
+ "egui-wgpu",
+ "egui_extras",
+ "emath",
+ "env_logger",
+ "futures",
+ "geo",
+ "geo-types",
+ "http-cache-reqwest",
+ "hypermocker",
+ "image",
+ "log",
+ "lru",
+ "lyon_path",
+ "lyon_tessellation",
+ "mvt-reader",
+ "pmtiles",
+ "reqwest",
+ "reqwest-middleware",
+ "rustls",
+ "serde",
+ "serde_json",
+ "thiserror 2.0.21",
+ "tokio",
+ "wasm-bindgen-futures",
+]
+
+[[package]]
 name = "read-fonts"
 version = "0.41.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -5710,44 +5748,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "walkers"
-version = "0.63.0"
-dependencies = [
- "approx",
- "bytemuck",
- "bytes",
- "color",
- "criterion",
- "ecolor",
- "eframe",
- "egui",
- "egui-wgpu",
- "egui_extras",
- "emath",
- "env_logger",
- "futures",
- "geo",
- "geo-types",
- "http-cache-reqwest",
- "hypermocker",
- "image",
- "log",
- "lru",
- "lyon_path",
- "lyon_tessellation",
- "mvt-reader",
- "pmtiles",
- "reqwest",
- "reqwest-middleware",
- "rustls",
- "serde",
- "serde_json",
- "thiserror 2.0.21",
- "tokio",
- "wasm-bindgen-futures",
-]
-
-[[package]]
 name = "walkers_extras"
 version = "0.63.0"
 dependencies = [
@@ -5759,9 +5759,9 @@ dependencies = [
  "lyon_path",
  "lyon_tessellation",
  "quick-xml 0.42.0",
+ "re_walkers",
  "rstar 0.13.0",
  "thiserror 2.0.21",
- "walkers",
 ]
 
 [[package]]
@@ -5772,9 +5772,9 @@ dependencies = [
  "egui",
  "env_logger",
  "geojson",
+ "re_walkers",
  "serde_json",
  "thiserror 2.0.21",
- "walkers",
  "walkers_extras",
 ]
 
